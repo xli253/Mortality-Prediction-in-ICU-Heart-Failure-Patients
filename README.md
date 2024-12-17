@@ -20,9 +20,13 @@ The report is structured as follows: Section 2 details the data cleaning and pre
 ## 2. Methods
 ### 2.1 Data Summary
 The dataset used in this study is the Hospital Mortality Dataset. It is designed to support predictive modeling for in-hospital mortality in ICU patients with heart failure. The dataset consists of 51 variables for a cohort of ICU patients and is structured into four main categories: demographic characteristics, vital signs, comorbidities, and laboratory test results.
+
 (1) Demographic Characteristics: Includes age, sex, ethnicity, weight, and height.
+
 (2) Vital Signs: Describes key measurements such as heart rate, systolic and diastolic blood pressure, respiratory rate, body temperature, and oxygen saturation.
+
 (3) Comorbidities: Contains records of conditions such as hypertension, atrial fibrillation, ischemic heart disease, diabetes mellitus, chronic kidney disease, and COPD.
+
 (4) Laboratory Variables: Encompasses hematological and metabolic markers such as blood urea nitrogen, creatinine, glucose, electrolytes, and other critical clinical values.
 
 The dataset is comprehensive and diverse, with a mix of continuous and categorical variables. While most data are complete, some laboratory variables have missing values. This dataset serves as a valuable resource for developing machine learning models aimed at predicting mortality outcomes in critical care settings.
